@@ -1,0 +1,43 @@
+{
+  "meeting_id": "MEETING-B",
+  "title": "Technical Discovery: Checkout, Webhooks & Stripe Integration",
+  "date": "2026-10-11",
+  "client_name": "SwiftParts Auto Guild",
+  "project_name": "E-Commerce Checkout & Automated Billing",
+  "participants": [
+    "Frank Miller (Founder, SwiftParts)",
+    "Jordan Blake (Lead Tech Consultant, Apex)"
+  ],
+  "utterances": [
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:00:45",
+      "text": "Hello Frank, good to connect. Let's discuss your subscription billing setup for SwiftParts Auto Guild."
+    },
+    {
+      "speaker": "Frank Miller",
+      "timestamp": "00:01:15",
+      "text": "Hey Jordan. Right now our auto repair shops have to mail us paper checks or send manual Zelle payments to stay listed. It's a logistical nightmare. We need automated online credit card processing with Stripe for annual $450 membership plans."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:02:00",
+      "text": "Understood. Brilliant Directories has native Stripe integration. When shops pay their annual fee, we want instant account provisioning and automated renewal webhooks."
+    },
+    {
+      "speaker": "Frank Miller",
+      "timestamp": "00:02:45",
+      "text": "Yes! And when the annual renewal succeeds, they need an automated branded PDF receipt emailed with our tax identification number and their business name on it."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:03:30",
+      "text": "We can leverage the built-in email templates and webhook listeners for invoice.payment_succeeded to trigger that immediately. What about failed payments or expired cards?"
+    },
+    {
+      "speaker": "Frank Miller",
+      "timestamp": "00:04:10",
+      "text": "If a renewal card declines, give them a 7-day grace period with automated reminder emails before changing their directory listing status to inactive."
+    }
+  ]
+}

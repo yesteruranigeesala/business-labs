@@ -1,0 +1,59 @@
+{
+  "meeting_id": "MEETING-A",
+  "title": "Discovery Call: Search Enhancement, Custom Filters & Mobile Experience",
+  "date": "2026-10-10",
+  "client_name": "GreenValley Wellness Directory",
+  "project_name": "Member Search & Experience Revamp",
+  "participants": [
+    "Dr. Aris Thorne (Client Executive Director)",
+    "Elena Vance (Client Operations Manager)",
+    "Jordan Blake (Lead Tech Consultant, Apex)"
+  ],
+  "utterances": [
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:01:15",
+      "text": "Thanks for joining today, Aris and Elena. Our goal is to dive into the search experience on GreenValley Wellness and understand what your directory visitors are struggling with."
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:01:45",
+      "text": "Thanks Jordan. In short, our website search isn't great. Right now, visitors type in a symptom or specialty and get either zero results or a jumbled list of 500 practitioners across the whole state. We want clients to find local practitioners fast within a specific postal code radius, say 15 to 50 miles."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:02:40",
+      "text": "Understood. Location radius search is fundamental. Does your directory currently have Google Maps API integrated, or are you looking for standard postal code coordinate matching?"
+    },
+    {
+      "speaker": "Elena Vance",
+      "timestamp": "00:03:10",
+      "text": "We already have the Google Maps API key active. But beyond location, we really need multi-tier category filters. For instance: Mental Health > Holistic Therapy > Trauma Counseling. Patients need to drill down without getting lost."
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:04:00",
+      "text": "Exactly. And we also need custom sidebar filter checkboxes. Specifically, 'Weekend Hours Available' and 'Accepts Major Medical Insurance'. Those two are huge decision factors for our users."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:04:45",
+      "text": "Got it. Regarding the sidebar checkboxes, we can check if the directory form manager allows us to configure these custom fields directly without writing custom SQL, which would save considerable engineering budget."
+    },
+    {
+      "speaker": "Elena Vance",
+      "timestamp": "00:05:20",
+      "text": "That would be wonderful if it's already built in. One more critical requirement: over 65% of our visitors are on iPhones. The current search sidebar takes up the whole screen on mobile and visitors can't scroll down to view practitioners. We need an expandable slide-out mobile drawer for filters."
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:06:10",
+      "text": "Yes, that mobile drawer is a must-have. If we can agree on this scope, our target launch date is November 15th. We have a board meeting on November 18th to present the updated portal."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:06:55",
+      "text": "Understood. To confirm our baseline: 1) Radius-based location search, 2) 3-tier hierarchical category dropdowns, 3) Custom sidebar checkboxes for Weekend Hours and Insurance, and 4) Responsive mobile filter drawer. We'll verify platform settings and produce a formal Scope of Work and estimate."
+    }
+  ]
+}

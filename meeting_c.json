@@ -1,0 +1,64 @@
+{
+  "meeting_id": "MEETING-C",
+  "title": "Follow-Up Scoping Call: Scope Revisions, Telehealth Widget & Timeline Shift",
+  "date": "2026-10-15",
+  "client_name": "GreenValley Wellness Directory",
+  "project_name": "Member Search & Experience Revamp",
+  "baseline_meeting_id": "MEETING-A",
+  "participants": [
+    "Dr. Aris Thorne (Client Executive Director)",
+    "Jordan Blake (Lead Tech Consultant, Apex)"
+  ],
+  "utterances": [
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:00:30",
+      "text": "Welcome back Aris. We reviewed our initial Scope of Work from Tuesday. You mentioned the board had several updates and scope adjustments after their quarterly review?"
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:01:05",
+      "text": "Yes Jordan. We had a long executive session yesterday, and we have a few adjustments to our agreed baseline. First, we need to add an integration for Telehealth booking. We want a 'Book Video Consultation' button on every practitioner's profile that opens an embedded Calendly or Acuity scheduling modal."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:02:15",
+      "text": "Understood. That is a new requirement: embedding an external scheduling modal via custom listing form fields. Let's make sure we log that as an addition to the scope."
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:02:50",
+      "text": "Second, on the location search: our clinical advisors pointed out that in rural regions, 50-mile radius is too restrictive. We want to change the search behavior from strict radius miles to a Statewide Search with a County Filter Dropdown."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:03:40",
+      "text": "Got it. So modifying the location search filter: changing from radius slider to a state + county hierarchical selector. What about the sidebar checkboxes we discussed previously?"
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:04:10",
+      "text": "Good point. We decided to drop the 'Weekend Hours Available' filter completely for MVP. Most practitioners do not want patients showing up on Saturdays, so please remove that. We will keep 'Accepts Major Medical Insurance'."
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:04:55",
+      "text": "Also Jordan, one more thing: can you also throw in a custom native iOS and Android mobile app under this same proposal and budget?"
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:05:30",
+      "text": "I appreciate the enthusiasm Aris, but a bespoke native iOS and Android application is a major undertaking that is completely out of scope for our web directory revamp. That requires its own dedicated architecture, app store compliance, and separate budget. I will explicitly flag that as out of scope in our change report so we don't hold up your web launch."
+    },
+    {
+      "speaker": "Dr. Aris Thorne",
+      "timestamp": "00:06:15",
+      "text": "Fair enough, that makes total sense. Keep it separate. Lastly, because of the telehealth addition and our holiday marketing schedule, our board moved the target launch date from November 15th to December 10th. We have extra runway."
+    },
+    {
+      "speaker": "Jordan Blake",
+      "timestamp": "00:07:00",
+      "text": "Excellent. That timeline extension gives us adequate time to implement the revised county filters and telehealth embed cleanly. We will generate the revised Scope of Work and a Change Order Report showing exact delta in hours and costs against our approved baseline."
+    }
+  ]
+}
